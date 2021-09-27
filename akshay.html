@@ -15,42 +15,188 @@
 </head>
 
 <body>
-    <header>
+
+    <div class="topnav">
+        <a href="index.html">HomePage</a>
+        <a class="active" href="#profile">About Me</a>
+        <a href="#techstacks">TechStack</a>
+        <a href="#education">Education Details</a>
+        <a href="#contact">Contact Details</a>
+      </div>
+
+    <header class="hero" id="profile">
         <div class="container">
             <div class="split extra-space">
                 <div class="col">
                     <h1>Akshay Munot</h1>
 
-                    <p>Hello Everyone! I am an android developer, and a flutter enthusiast. I also have an interest in
-                        Machine-Learning</p>
+                    <p style="text-align: center">Hello Everyone! I am an Android developer, and a Flutter enthusiast. I
+                        also have an interest in
+                        Machine-Learning.</p>
 
-                    <div class="split">
+                    <div class="image-container">
                         <div class="col">
-                            <img src="img\github.png" alt="Github Profile">
+                            <a href="https://github.com/akshayMunot30"><img src="img\github.png"
+                                    alt="Github Profile"></a>
                         </div>
                         <div class="col">
-                            <img src="img\linkedin.png" alt="Linkedin Profile">
+                            <a href="https://www.linkedin.com/in/akshay-munot-9a32741aa/"><img src="img\linkedin.png"
+                                    alt="Linkedin Profile"></a>
                         </div>
                         <div class="col">
-                            <img src="img\facebook.png" alt="Facebook Profile">
+                            <a href="https://www.facebook.com/akshaymunot.30/"><img src="img\facebook.png"
+                                    alt="Facebook Profile"></a>
+                        </div>
+                        <div class="col">
+                            <a
+                                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=akshaymunot30@gmail.com&body=my-text"><img
+                                    src="img\gmail.png" alt="Email"></a>
                         </div>
                     </div>
 
                     <!-- <p>Not what you are looking for? <a href="index.html">Go back to the homepage</a></p> -->
                 </div>
                 <div class="col">
-                    <img src="img\akshay.jpeg" alt="Akshay Munot profile image" width="330" height="300">
+                    <img src="img\akshay.jpeg" alt="Akshay Munot profile image"
+                        style="box-shadow: 8px 3px 30px -10px black;">
+                </div>
+            </div>
+            <br>
+            <br>
+            <p>Hola!! I am Akshay Munot, current pursuing Bachelor's degree in Information Technology, at Pimpri -
+                Chinchwad College of Egineering. Currently I am studying in Third Year. As specfied earlier, I have
+                interest in Android Development, and am currently working with Flutter. My hobbies are Trekking, Reading
+                and Singing.</p>
+        </div>
+        <br>
+        <br>
+        <p style="margin: 0 150px"><a href="#techstacks">TechStack</a></p>
+        <p style="margin: 0 150px"><a href="#education">Education Details</a></p>
+        <p style="margin: 0 150px"><a href="#contact">Contact Details</a></p>
+    </header>
+
+    <section class="accent-bg" id="techstacks">
+
+        <h1>Techstack</h1>
+        <hr>
+
+        <div class="techstack-container" id="tech-stacks">
+            <div class="column">
+                <img src="img\flutter.png" alt="Flutter">
+            </div>
+            <div class="column">
+                <img src="img\dart.png" alt="Dart">
+            </div>
+            <div class="column">
+                <img src="img\firebase.png" alt="Firebase">
+            </div>
+            <div class="column">
+                <img src="img\android.png" alt="Android">
+            </div>
+            <div class="column">
+                <img src="img\java.png" alt="Java">
+            </div>
+            <div class="column">
+                <img src="img\python.png" alt="Python">
+            </div>
+            <div class="column">
+                <img src="img\cpp.png" alt="C++">
+            </div>
+            <div class="column">
+                <img src="img\mysql.png" alt="MySQL">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p style="margin: 0 90px;"><a href="#profile">About me</a></p>
+        <p style="margin: 0 90px;"><a href="#education">Education Details</a></p>
+        <p style="margin: 0 90px;"><a href="#contact">Contact Details</a></p>
+    </section>
+
+    <section class="accentBG" id="education">
+        <h1>Education Details</h1>
+        <hr>
+
+        <div class="container">
+            <div class="split extra-space">
+                <div class="text-container">
+                    <h2 style="text-align: center;">10th Grade</h2>
+                    <ul>
+                        <li><strong>School Name</strong>: St. Ursulas High School</li>
+                        <li><strong>Board</strong>: SSC</li>
+                        <li><strong>Graduation Year</strong>: 2017</li>
+                        <li><strong>Percentage</strong>: 92.20%</li>
+                    </ul>
+                </div>
+                <div class="text-container">
+                    <h2 style="text-align: center;">12th Grade</h2>
+                    <ul>
+                        <li><strong>College Name</strong>: St. Ursulas Jr. College</li>
+                        <li><strong>Board</strong>: HSC</li>
+                        <li><strong>Graduation Year</strong>: 2019</li>
+                        <li><strong>Percentage</strong>: 82.15%</li>
+                    </ul>
+                </div>
+                <div class="text-container">
+                    <h2 style="text-align: center;">Graduation</h2>
+                    <ul>
+                        <li><strong>College Name</strong>: PCCOE</li>
+                        <li><strong>University</strong>: SPPU</li>
+                        <li><strong>Branch</strong>: IT</li>
+                        <li><strong>Graduation Year</strong>: 2023</li>
+                        <li><strong>Percentage</strong>: <span id="bold-italics">Ongoing</span></li>
+                    </ul>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <p style="margin: 0 140px;"><a href="#profile">About Me</a></p>
+        <p style="margin: 0 140px"><a href="#techstacks">TechStack</a></p>
+        <p style="margin: 0 140px"><a href="#contact">Contact Details</a></p>
+    </section>
+
+    <section class="accent-bg" id="contact">
+
+        <p style="margin: 0 140px;"><a href="#profile">About Me</a></p>
+        <p style="margin: 0 140px"><a href="#techstacks">TechStack</a></p>
+        <p style="margin: 0 140px"><a href="#contact">Contact Details</a></p>
+        <br>
+        <br>
+        <br>
+        
+        <h3>Contact Details</h1>
+        <hr class="contact">
+
         <div class="container">
-            <p><a href="mission.html">Go to mission page</a></p>
+            <p style="text-align: center;font-size: x-small;">Below are the links through which we can get connected.</p>
+
+            <div class="image-container">
+                <div class="col">
+                    <a href="https://github.com/akshayMunot30"><img src="img\github.png"
+                            alt="Github Profile"></a>
+                </div>
+                <div class="col">
+                    <a href="https://www.linkedin.com/in/akshay-munot-9a32741aa/"><img src="img\linkedin.png"
+                            alt="Linkedin Profile"></a>
+                </div>
+                <div class="col">
+                    <a href="https://www.facebook.com/akshaymunot.30/"><img src="img\facebook.png"
+                            alt="Facebook Profile"></a>
+                </div>
+                <div class="col">
+                    <a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=akshaymunot30@gmail.com&body=my-text"><img
+                            src="img\gmail.png" alt="Email"></a>
+                </div>
+            </div>
         </div>
+        
+    </section>
 
-
-
-
-    </header>
 
     <!--<section class="accent-bg">
         <div class="container">
