@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;/*box width is adjust,border box makes size of parent element*/
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 20px;/*margin 15 *30 */
+    font-size: 17px;
+    padding: 8px;
+
+}
+.contact{
+    /*background-color:rgb(224, 192, 214);*/
+    background-color:#d879a0;
+    padding: 5px 20px 15px 20px;/*background color is in padding*/
+    border: 2px solid #d879a0 ;
+    border-radius: 4px;/*gives curves around vertex */
+    
+
+}
+input[type="text"]
+input[type="email"]
+input[type="number"]
+select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d879a0;
+    border-radius: 5px;
+}
+
+.h1{
+    color:lightpink;
+}

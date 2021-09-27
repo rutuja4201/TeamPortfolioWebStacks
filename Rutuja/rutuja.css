@@ -1,0 +1,37 @@
+
+body {
+	font-family: sans-serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: black;
+	color: white;
+}
+
+p {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 450px;
+	align-items: center;
+	text-align: center;
+	font-size: 16px
+}
+
+h1 {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	font-family: roboto;
+	width: 380px
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 400px;
+}
+
